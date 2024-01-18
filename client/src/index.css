@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.zeroPadding {
+    padding: 0;
+}
+
+.drawerWidth {
+    width: 104px;
+}
+
+.darkBlueColor {
+    background-color: #1F1D2B;
+}
