@@ -6,7 +6,7 @@ const initialState = {
             icon: "StoreIcon",
             color: theme.palette.secondary.main,
             margin: "0.5rem",
-            target: '/',
+            target: '/home',
             size: 56,
             height: '56px'
         },
@@ -38,7 +38,7 @@ const initialState = {
             icon: "MessageIcon",
             color: theme.palette.secondary.main,
             margin: "0.5rem",
-            target: '/',
+            target: '/message',
             size: 30,
             height: '102px'
         },
@@ -46,7 +46,7 @@ const initialState = {
             icon: "NotificationIcon",
             color: theme.palette.secondary.main,
             margin: "0.5rem",
-            target: '/',
+            target: '/notification',
             size: 30,
             height: '102px'
         },
@@ -54,7 +54,7 @@ const initialState = {
             icon: "SettingIcon",
             color: theme.palette.secondary.main,
             margin: "0.5rem",
-            target: '/',
+            target: '/setting',
             size: 30,
             height: '102px'
         },
@@ -62,7 +62,7 @@ const initialState = {
             icon: "LogoutIcon",
             color: theme.palette.secondary.main,
             margin: "0.5rem",
-            target: '/',
+            target: '/logout',
             size: 30,
             height: '102px'
         }

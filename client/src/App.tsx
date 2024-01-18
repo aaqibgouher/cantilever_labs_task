@@ -12,6 +12,7 @@ const App: ReactComponentType = () => {
       <ThemeProvider theme={theme}>
         <Router>
           <Routes>
+            <Route path="/" element={<DashboardPage />} />
             <Route path="/report" element={<DashboardPage />} />
             <Route path="/order-tracking" element={<DashboardPage />} />
           </Routes>

@@ -12,7 +12,7 @@ const DashboardPage: ReactComponentType = () => {
     "order-tracking": OrderTrackingComponent,
   };
 
-  current = location.pathname.split("/")[1];
+  current = location.pathname.split("/")[1] || "report";
 
   //   creating component
   const CurrentComponent = routeMapping[current];
