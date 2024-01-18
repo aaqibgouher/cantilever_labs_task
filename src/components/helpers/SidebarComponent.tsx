@@ -1,4 +1,4 @@
-import { Drawer, List, ListItem, ListItemIcon } from "@mui/material";
+import { Drawer, List, ListItem, ListItemIcon, Box } from "@mui/material";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import IconComponent from "./IconComponent";
@@ -30,27 +30,38 @@ const SidebarComponent = () => {
                 height: sidebar.height,
                 backgroundColor:
                   location.pathname === sidebar.target
-                    ? theme.palette.secondary.main
+                    ? theme.palette.primary.light
                     : "",
               }}
             >
-              <Link
-                to={sidebar.target}
-                style={{ textDecoration: "none", color: "inherit" }}
+              <Box
+                sx={{
+                  backgroundColor:
+                    location.pathname === sidebar.target
+                      ? theme.palette.secondary.main
+                      : "",
+                  borderRadius:
+                    location.pathname === sidebar.target ? `10px` : "",
+                }}
               >
-                <ListItemIcon>
-                  <IconComponent
-                    icon={sidebar.icon}
-                    color={
-                      location.pathname === sidebar.target
-                        ? theme.palette.secondary.contrastText
-                        : sidebar.color
-                    }
-                    margin={sidebar.margin}
-                    size={sidebar.size}
-                  />
-                </ListItemIcon>
-              </Link>
+                <Link
+                  to={sidebar.target}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <ListItemIcon>
+                    <IconComponent
+                      icon={sidebar.icon}
+                      color={
+                        location.pathname === sidebar.target
+                          ? theme.palette.primary.contrastText
+                          : sidebar.color
+                      }
+                      margin={sidebar.margin}
+                      size={sidebar.size}
+                    />
+                  </ListItemIcon>
+                </Link>
+              </Box>
             </ListItem>
           ))
         ) : (
