@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/aaqibgouher/cantilever_labs_task",
+  "homepage": "https://aaqibgouher.github.io/cantilever_labs_task/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
