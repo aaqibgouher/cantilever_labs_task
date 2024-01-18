@@ -1,4 +1,3 @@
-import React from "react";
 import Chart from "react-apexcharts";
 import { Box, Typography } from "@mui/material";
 import { useTheme } from "@mui/material/styles";

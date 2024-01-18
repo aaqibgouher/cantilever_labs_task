@@ -3,7 +3,6 @@ import ReportComponent from "../components/report/ReportComponent";
 import OrderTrackingComponent from "../components/orderTracking/OrderTrackingComponent";
 import { ReactComponentType, RouteMappingType } from "../interfaces/common";
 import DashboardLayout from "../layouts/DasboardLayout";
-import DefaultComponent from "../components/helpers/DefaultComponent";
 
 const DashboardPage: ReactComponentType = () => {
   const location = useLocation();

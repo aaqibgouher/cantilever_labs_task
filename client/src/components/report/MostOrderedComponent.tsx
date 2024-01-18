@@ -1,9 +1,5 @@
 import {
   Card,
-  CardHeader,
-  CardContent,
-  CardActions,
-  IconButton,
   Typography,
   Grid,
   Box,
@@ -14,7 +10,6 @@ import {
   ListItemText,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import DeleteIcon from "@mui/icons-material/Delete";
 import IconComponent from "../helpers/IconComponent";
 import { useSelector } from "react-redux";
 

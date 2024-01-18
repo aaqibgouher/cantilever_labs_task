@@ -1,15 +1,12 @@
 import {
   Box,
   Grid,
-  Paper,
   Typography,
-  Divider,
   InputAdornment,
   TextField,
   IconButton,
 } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
-import SearchIcon from "@mui/icons-material/Search";
 import IconComponent from "../helpers/IconComponent";
 import CardComponent from "../helpers/CardComponent";
 import MapComponent from "./MapComponent";

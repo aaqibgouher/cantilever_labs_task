@@ -1,14 +1,4 @@
-import { ReactComponentType } from "../../interfaces/common";
-import {
-  Card,
-  CardHeader,
-  CardContent,
-  CardActions,
-  IconButton,
-  Typography,
-  Grid,
-  Box,
-} from "@mui/material";
+import { Card, Typography, Grid, Box } from "@mui/material";
 import IconComponent from "../helpers/IconComponent";
 import { useSelector } from "react-redux";
 import { useTheme } from "@mui/material/styles";

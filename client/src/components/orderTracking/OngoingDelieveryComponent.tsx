@@ -1,13 +1,9 @@
-import React from "react";
 import { Card, Typography, Grid, CardMedia, Divider, Box } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import ImageURL from "../../assets/Image.png";
 import TimelineComponent from "./TimelineComponent";
 import IconButton from "@mui/material/IconButton";
 import Stack from "@mui/material/Stack";
-import DeleteIcon from "@mui/icons-material/Delete";
-import AlarmIcon from "@mui/icons-material/Alarm";
-import AddShoppingCartIcon from "@mui/icons-material/AddShoppingCart";
 import IconComponent from "../helpers/IconComponent";
 
 const OngoingDeliveryComponent = () => {

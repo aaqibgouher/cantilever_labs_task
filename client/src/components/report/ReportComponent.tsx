@@ -1,4 +1,4 @@
-import { Box, Grid, Paper, Typography, Divider } from "@mui/material";
+import { Box, Grid, Typography, Divider } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import CardComponent from "../helpers/CardComponent";
 

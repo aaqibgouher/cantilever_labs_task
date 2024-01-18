@@ -1,6 +1,6 @@
 import SidebarComponent from "../components/helpers/SidebarComponent";
 import { ReactComponentType } from "../interfaces/common";
-import { Toolbar, Container, Box, CssBaseline } from "@mui/material";
+import { Box, CssBaseline } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 
 const DasboardLayout: ReactComponentType = ({ children }) => {

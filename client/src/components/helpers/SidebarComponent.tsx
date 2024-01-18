@@ -1,11 +1,4 @@
-import React from "react";
-import {
-  Drawer,
-  List,
-  ListItem,
-  ListItemIcon,
-  Typography,
-} from "@mui/material";
+import { Drawer, List, ListItem, ListItemIcon } from "@mui/material";
 import { Link, useLocation } from "react-router-dom";
 import { useSelector } from "react-redux";
 import IconComponent from "./IconComponent";
