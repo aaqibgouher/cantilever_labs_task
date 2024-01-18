@@ -14,8 +14,6 @@ import { Coordinates } from "../../interfaces/common";
 
 const OrderTrackingComponent = () => {
   const theme = useTheme();
-  const startCoords: Coordinates = { lat: 51.505, lng: -0.09 };
-  const endCoords: Coordinates = { lat: 51.51, lng: -0.1 };
 
   return (
     <>
@@ -74,8 +72,11 @@ const OrderTrackingComponent = () => {
 
               {/* order */}
               <Box>
-                {[1, 2, 3].map((item: any) => (
-                  <CardComponent cardType="ONGOING_DELIEVERY"></CardComponent>
+                {[1, 2, 3].map((index: number) => (
+                  <CardComponent
+                    key={index}
+                    cardType="ONGOING_DELIEVERY"
+                  ></CardComponent>
                 ))}
               </Box>
             </Box>
