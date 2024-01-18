@@ -10,7 +10,6 @@ import { useTheme } from "@mui/material/styles";
 import IconComponent from "../helpers/IconComponent";
 import CardComponent from "../helpers/CardComponent";
 import MapComponent from "./MapComponent";
-import { Coordinates } from "../../interfaces/common";
 
 const OrderTrackingComponent = () => {
   const theme = useTheme();
